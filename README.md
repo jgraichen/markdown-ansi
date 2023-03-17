@@ -1,8 +1,8 @@
 # markdown-ansi
 
-A `pymdownx.superfences` formatter for rendering console output with ANSI colors.
+A `pymdownx.superfences` formatter for rendering console output with ANSI colors using [`ansi2html`](https://github.com/pycontribs/ansi2html).
 
-Note: Only basic ANSI color escape sequences are supported.
+Note: _Only_ ANSI color escape sequences are supported. Other escape sequences should be removed manually.
 
 ## Usage
 
